@@ -1,3 +1,5 @@
+//Q1. Write a program to Calculate sum of first N natural numbers
+
 #include <iostream>
 using namespace std;
 
