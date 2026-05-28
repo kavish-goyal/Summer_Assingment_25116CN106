@@ -1,3 +1,5 @@
+//Q2. Write a program to Print multiplication table of a given number. 
+
 #include <iostream>
 using namespace std;
 
