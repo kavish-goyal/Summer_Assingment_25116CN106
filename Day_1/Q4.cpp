@@ -23,5 +23,4 @@ int main()
 
     cout << "Number of digits is: " << count;
 
-    return 0;
 }

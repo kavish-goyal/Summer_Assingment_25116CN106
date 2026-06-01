@@ -12,6 +12,4 @@ int main()
     {
         cout << n << " x " << i << " = " << n*i <<endl;
     }
-
-    return 0;
 }

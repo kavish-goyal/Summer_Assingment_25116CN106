@@ -23,5 +23,4 @@ int main()
         cout << "Factorial of " << n << " is: " << factorial;
     }
 
-    return 0;
 }
