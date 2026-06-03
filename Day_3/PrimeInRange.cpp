@@ -26,7 +26,7 @@ int main()
                     count++;
                     break;
                 }
-                i++;
+                i=i+1;
             }
 
             if(count == 0)
@@ -34,7 +34,7 @@ int main()
                 cout << num <<" ";
             }
         }
-        num++;
+        num=num+1;
     }
     return 0;
 }

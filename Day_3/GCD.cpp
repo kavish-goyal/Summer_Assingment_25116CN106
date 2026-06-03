@@ -10,15 +10,15 @@ int main()
     cout << "Enter two numbers: ";
     cin >> a >> b;
 
-    while(i <= a && i <= b)
+    while(i<= a && i<= b)
     {
-        if(a % i == 0 && b % i == 0)
+        if(a % i== 0 && b % i== 0)
         {
-            gcd = i;
+            gcd= i;
         }
-        i++;
+        i+i+1;
     }
-    cout << "GCD is:" << gcd << endl;
+    cout << "GCD is:"<< gcd << endl;
 
     return 0;
 }

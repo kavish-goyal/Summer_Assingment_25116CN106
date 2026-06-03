@@ -9,22 +9,22 @@ int main()
     cout << "Enter two numbers: ";
     cin >> a >> b;
 
-    if(a > b)
+    if(a>b)
     {
-        lcm = a;
+        lcm= a;
     }
     else
     {
-        lcm = b;
+        lcm= b;
     }
     while(true)
     {
-        if(lcm % a == 0 && lcm % b == 0)
+        if(lcm % a==0 && lcm % b==0)
         {
             cout << "LCM is: " << lcm << endl;
             break;
         }
-        lcm++;
+        lcm=lcm+1;
     }
     return 0;
 }
