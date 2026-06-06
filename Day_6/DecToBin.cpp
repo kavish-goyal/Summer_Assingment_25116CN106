@@ -4,19 +4,19 @@
 using namespace std;
 int main() 
 {
-    int binary, decimal = 0, base = 1, rem;
+    int decimal, binary = 0, base = 1, remainder;
 
-    cout << "Enter binary number: ";
-    cin >> binary;
+    cout << "Enter decimal number: ";
+    cin >> decimal;
 
-    while (binary > 0) 
+    while (decimal > 0) 
     {
-        rem = binary % 10;          
-        decimal = decimal + rem * base;
-        binary = binary / 10;       
-        base = base * 2;            
+        remainder = decimal % 2;          
+        binary = binary + remainder * base;
+        base = base * 10;                
+        decimal = decimal / 2;           
     }
-    cout << "Decimal number = " << decimal;
+    cout << "Binary number = " << binary;
 
     return 0;
 }
