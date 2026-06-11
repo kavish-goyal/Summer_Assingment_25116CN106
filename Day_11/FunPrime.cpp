@@ -1,3 +1,5 @@
+//Q3. Write a Program to Write Function to check Prime.
+
 #include<iostream>
 using namespace std;
 int isPrime(int n)

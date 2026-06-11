@@ -1,3 +1,5 @@
+//Q2. Write a Program to Write Function to Find maximum.
+
 #include<iostream>
 using namespace std;
 int maximum(int a, int b)

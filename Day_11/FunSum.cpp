@@ -1,3 +1,5 @@
+//Q1. Write a Program to Write Function to Find sum of two numbers.
+
 #include<iostream>
 using namespace std;
 int sum(int a, int b)

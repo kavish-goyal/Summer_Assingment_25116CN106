@@ -1,3 +1,5 @@
+//Q4. Write a Program to Write Function to find Factorial.
+
 #include<iostream>
 using namespace std;
 int factorial(int n)
