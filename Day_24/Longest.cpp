@@ -1,0 +1,26 @@
+// 3. Write a program to Find longest word.
+
+
+#include <iostream>
+using namespace std;
+int main() {
+    string str, word = "", longest = "";
+    getline(cin, str);
+
+    for (int i = 0; i <= str.length(); i++) 
+    {
+        if (str[i] != ' ' && i != str.length())
+        {
+            word += str[i];
+        }
+        else 
+        {
+            if (word.length() > longest.length())
+                longest = word;
+            word = "";
+        }
+    }
+
+    cout << "Longest word: " << longest;
+    return 0;
+}
